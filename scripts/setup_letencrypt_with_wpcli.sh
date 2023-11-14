@@ -54,3 +54,12 @@ wp config create \
   --admin_email=$WORDPRESS_ADMIN_EMAIL \
   --path=/var/www/html \
   --allow-root
+
+# Instalar un tema con wp
+wp theme install Twenty Twenty-One
+
+# Instalar un plugin con wp
+wp plugin install akismet
+
+# Y para activar el plugin 
+wp plugin activate akismet
